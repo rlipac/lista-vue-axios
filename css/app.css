@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 #input-search {
     margin: 10px 0;
   }
@@ -9,3 +13,47 @@
       background-color: #555;
       color: #fff;
   }
+  
+  img.my-foto{
+      border-radius: 48%;
+      width: 80px;
+  }
+  .name{
+      margin-top: 20px;
+      font-size: 18px;
+
+  }
+  .title{
+  font-size: 30px;
+  }
+  @media (max-width: 700px) { 
+      body{
+          border: solid 7px red;
+      }
+      .name{
+        margin-top: 10px;
+        font-size: 16px;
+  
+    }
+    .title{
+    font-size: 20px;
+    }
+
+   }
+
+   @media (max-width: 450px) { 
+    body{
+        border: solid 4px yellow;
+    }
+    .name{
+      margin-top: 5px;
+      font-size: 14px;
+
+  }
+  .title{
+  font-size: 16px;
+  }
+
+ }
+
+

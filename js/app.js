@@ -14,7 +14,7 @@ Vue.filter('format-thousands', function (value) {
        countriesFilter: function() {
          var textSearch = this.textSearch;
          return this.countries.filter(function(el) {
-           return el.contries.toLowerCase().indexOf(textSearch.toLowerCase()) !== -1;
+           return el.name.toLowerCase().indexOf(textSearch.toLowerCase()) !== -1;
          });
        }
     },
